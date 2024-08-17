@@ -9,6 +9,7 @@ execute as @a if score @s spawn matches 1 run scoreboard players set @s cdenable
 
 #Sets the cdenabled scoreboard to 0 if the cooldown started
 #so it dosent stay 1800s and actualy works
+#change this for cooldown duration u want
 execute as @a if score @s spawncd matches 1800 run scoreboard players set @s cdenabled 0
 
 #starts the timer again when spawn command is triggerd
